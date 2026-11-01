@@ -4,18 +4,6 @@
 
 ---
 
-## 👥 Group Members & Contribution
-
-| Roll Number | Name | Primary Contribution |
-| :---: | :--- | :--- |
-| **23ME31047** | **Sailor Dhruv Jayeshbhai** | Mechanism reduction (74 species for student license), Chemkin-Pro zonal modeling, parameter sweeps ($n, b, \text{SOC}, \Delta\theta$), plotting scripts |
-| **26ME62R04** | **Areet Biswas** | Two-zone thermodynamic formulation, Woschni heat transfer correlation, baseline validation |
-| **26ME62R11** | **Veerabhadra Sri Manisankar Kalepu** | Parameter sensitivity analysis, combustion phasing ($\text{CA}_{50}$), MBT timing optimization |
-| **26ME62R19** | **Roopchand Chowdary Sunkara** | Endgas knocking limit analysis ($\Delta\theta=10^\circ$), numerical solver stability boundary ($b=2.0$) |
-| **23ME10042** | **Krishnav Anand Agarwal** | Air-standard Otto cycle efficiency comparison, loss breakdown, report compilation & slides |
-
----
-
 ## 📌 Project Overview & Key Findings
 
 This project investigates the closed-cycle performance of a four-stroke Spark-Ignition (SI) engine fueled with pure ethanol ($\text{C}_2\text{H}_5\text{OH}$, $\phi = 1.0$) at a compression ratio of $\text{CR} = 12.0$ using **ANSYS Chemkin-Pro 2025 R2** (Aurora Two-Zone SI Engine Model).
