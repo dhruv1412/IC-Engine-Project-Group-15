@@ -20,10 +20,7 @@ This project investigates the closed-cycle performance of a four-stroke Spark-Ig
 
 ```
 ├── Project_Report.md           # Comprehensive Technical Report (Markdown)
-├── Project_Report.html         # Printable styled HTML report (with KaTeX math)
 ├── Presentation_Slides.md      # Slide-by-slide bullet points, speaking script & viva prep
-├── plot_results.py             # Python script generating all performance plots
-├── generate_html_report.py     # HTML report compiler script
 ├── chemkin_screenshots/        # Screenshots of CHEMKIN-Pro GUI configuration panels
 ├── chemkin_student_mech/       # 74-species reduced chemical kinetics mechanism (mech, therm, trans)
 ├── plot_comprehensive_summary.png  # Master 4-in-1 executive summary plot
@@ -32,13 +29,4 @@ This project investigates the closed-cycle performance of a four-stroke Spark-Ig
 └── Pressure_Unburned_Zone...   # Chemkin in-cylinder P-theta indicator diagram
 ```
 
----
-
-## 🚀 How to Run the Analysis
-To regenerate all figures and data:
-```bash
-python plot_results.py
-python generate_html_report.py
-```
-Open `Project_Report.html` in Chrome/Edge and press `Ctrl + P` to generate the PDF report.
 
