@@ -1,0 +1,31 @@
+# Ignore large ANSYS installer files
+ANSYSACADEMICSTUDENT*
+
+# Ignore original unreduced mechanism (exceeds student license limits)
+Isooctane_nHeptane_Ethanol_Methanol/
+
+# Ignore internal scratchpad, scripts, and intermediate batch/text files
+Chemkin_work.md
+test_run_chem.bat
+extracted_pdf_text.txt
+*.reg
+*.tmp
+generate_html_report.py
+plot_results.py
+Project_Report.html
+
+# Ignore duplicate / temporary files
+chemkin_student_mech/mech_74sp.dat
+Pressure_Unburned_Zone_Vs_Crank_rotation_angle_unburnt_zone.png.png
+
+# PDF handling (keep only the final project report PDF)
+*.pdf
+!IC Engine Project Report*.pdf
+
+# Python cache
+__pycache__/
+*.pyc
+
+# OS files
+Thumbs.db
+.DS_Store
